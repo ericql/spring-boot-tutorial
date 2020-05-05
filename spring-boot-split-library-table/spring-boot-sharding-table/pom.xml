@@ -4,14 +4,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>spring-boot-split-library-table</artifactId>
-        <groupId>com.eric</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.6.RELEASE</version>
+        <relativePath/>
     </parent>
 
+    <groupId>com.eric</groupId>
     <artifactId>spring-boot-sharding-table</artifactId>
-    <description>基于Spring Boot 2.2.6 使用sharding-sphere + Mybatis-Plus 实现分库分表</description>
     <version>0.0.1-SNAPSHOT</version>
+    <name>sharding-eric</name>
+    <description>基于Spring Boot 2.2.6 使用sharding-sphere + Mybatis-Plus 实现分库分表</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
 
     <dependencies>
         <dependency>
