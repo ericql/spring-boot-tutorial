@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-boot-sharding-table</module>
+        <module>spring-boot-sharding-read-write</module>
     </modules>
 
 
