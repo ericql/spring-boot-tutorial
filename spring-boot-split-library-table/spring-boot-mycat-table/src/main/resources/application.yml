@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: mycat-eric
+  # 配置数据源
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      # 配置的是Mycat中server.xml中配置账号密码，不是数据库的密码
+      username: root
+      password: 123456
+      # mycat的逻辑库 端口也是mycat的
+      url: jdbc:mysql://127.0.0.1:8066/TESTDB
+# mybatis-plus映射mapper文件
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.eric.mycat.entity
