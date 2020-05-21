@@ -1,6 +1,0 @@
-1.创建独立的Spring应用程序 --- 一个Spring的应用程序必然包含spring-context、core、aop、beans;展开必备依赖包
-2.嵌入的Tomcat,无需部署WAR文件 --- 查看jar包依赖图,无需部署WAR文件,启动原理时讲;eclipse则生成后还需部署到对应的容器中
-3.简化Maven配置 --- 只需填写坐标文件即可,解决jar包冲突也很方便
-4.自动配置Spring --- 同上
-5.提供生产就绪型功能,如指标、健康检查和外部配置 --- 可以使用IDEA自带的Endpoints或actuator去观察
-6.开箱即用,没有代码生成,也没有XML配置

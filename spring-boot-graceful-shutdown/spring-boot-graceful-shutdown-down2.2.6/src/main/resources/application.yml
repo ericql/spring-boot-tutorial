@@ -1,0 +1,18 @@
+# 开启优雅停止web容器，默认为 IMMEDIATE--立即停止
+#server:
+#  shutdown: graceful
+
+# 最大等待时间
+#spring:
+#  lifecycle:
+#    timeout-per-shutdown-phase: 30s
+
+# 暴露 shutdown 接口
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: shutdown
