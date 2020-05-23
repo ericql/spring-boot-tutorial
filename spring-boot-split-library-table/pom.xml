@@ -16,6 +16,7 @@
         <module>spring-boot-mycat-table</module>
         <module>spring-boot-sharding01-single-library-split-table</module>
         <module>spring-boot-sharding02-multi-library-split-table</module>
+        <module>spring-boot-sharding03-custom-strategy</module>
     </modules>
 
 
