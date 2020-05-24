@@ -11,9 +11,9 @@
     </parent>
 
     <groupId>com.eric</groupId>
-    <artifactId>spring-boot-sharding-table</artifactId>
+    <artifactId>spring-boot-sharding02-multi-library-split-table</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sharding-eric</name>
+    <name>multi-library-split-table</name>
     <description>基于Spring Boot 2.2.6 使用sharding-sphere + Mybatis-Plus 实现分库分表</description>
 
     <properties>

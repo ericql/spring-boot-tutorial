@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.eric</groupId>
-    <artifactId>spring-boot-sharding-read-write</artifactId>
+    <artifactId>spring-boot-sharding04-read-write</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>sharding-read-write</name>
     <description>基于Spring Boot 2.2.6 使用sharding-sphere + Mybatis-Plus 实现读写分离</description>

@@ -21,7 +21,6 @@
 
     <modules>
         <module>spring-boot-split-library-table</module>
-        <module>spring-boot-sharding-read-write</module>
         <module>spring-boot-hello-world</module>
         <module>spring-boot-graceful-shutdown</module>
     </modules>
