@@ -25,6 +25,7 @@
         <module>spring-boot-graceful-shutdown</module>
         <module>spring-boot-json-deal</module>
         <module>spring-boot-hot-deploy</module>
+        <module>spring-boot-service-container</module>
     </modules>
 
     <properties>
