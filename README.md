@@ -13,5 +13,8 @@ SpringBoot总结教程
 ## SpringBoot之热部署
 [热部署](https://github.com/ericql/spring-boot-tutorial/tree/master/spring-boot-hot-deploy/hot-deploy.md)
 
+## SpringBoot之服务容器
+[容器](https://github.com/ericql/spring-boot-tutorial/tree/master/spring-boot-service-container/service-container.md)
+
 ## SpringBoot优雅停机
 [优雅停机教程](https://github.com/ericql/spring-boot-tutorial/blob/master/spring-boot-graceful-shutdown/graceful-shutdown.md)
